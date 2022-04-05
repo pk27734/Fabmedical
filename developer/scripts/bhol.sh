@@ -27,7 +27,7 @@ if [[ -z "${MCW_GITHUB_URL}" ]]; then
     MCW_GITHUB_URL=https://$MCW_GITHUB_TOKEN@github.com/$MCW_GITHUB_USERNAME/Fabmedical.git
 fi
 
-git config --global user.email "$MCW_GITHUB_EMAIL"
+git config --global user.email pk27734@users.noreply.github.com
 git config --global user.name "$MCW_GITHUB_USERNAME"
 
 cp -R ~/MCW-Cloud-native-applications/Hands-on\ lab/lab-files/developer ~/Fabmedical
